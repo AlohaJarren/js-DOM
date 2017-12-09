@@ -93,7 +93,15 @@ myCustomProf.appendChild(jarCal);
 //Nicknames
 var jarCal2 = document.createElement("div");
 jarCal2.id = "pseudonymity";
-jarCal2.innerHTML = "Bar Bar, McD3rpster, DreamChaser <br /> Math Wizard";
+jarCal2.innerHTML = "Bar Bar, Math Wizard, DreamChaser_JC <br /> McD3rpster, aloha_jxrren";
 jarCal2.style.textAlign = "center";
 
 myCustomProf.appendChild(jarCal2);
+
+//Some Random Phrase I Go By
+var jarCal3 = document.createElement("div");
+jarCal3.id = "random_phrase";
+jarCal3.innerHTML = "&#34;1 Shot, 1 Breeze&#34;";
+jarCal3.style.textAlign = "center";
+
+myCustomProf.appendChild(jarCal3);
