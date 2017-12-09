@@ -80,3 +80,20 @@ aliasParent.appendChild(divElement2);
 //Final Boss
 /*9. Without modifying the HTML file, create your own profile.*/
 
+var myCustomProf = document.getElementsByClassName("block3 col-sm-4")[2];
+
+// The Main Man of the Hour
+var jarCal = document.createElement("div");
+jarCal.id = "real_pseudo";
+jarCal.innerHTML = "Jarren Calizo";
+jarCal.style.textAlign = "center";
+
+myCustomProf.appendChild(jarCal);
+
+//Nicknames
+var jarCal2 = document.createElement("div");
+jarCal2.id = "pseudonymity";
+jarCal2.innerHTML = "Bar Bar, McD3rpster, DreamChaser <br /> Math Wizard";
+jarCal2.style.textAlign = "center";
+
+myCustomProf.appendChild(jarCal2);
