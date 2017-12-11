@@ -105,3 +105,10 @@ jarCal3.innerHTML = "&#34;1 Shot, 1 Breeze&#34;";
 jarCal3.style.textAlign = "center";
 
 myCustomProf.appendChild(jarCal3);
+
+//Find IMG in source
+var jarCal4 = document.getElementsByTagName("img");
+console.log(jarCal4); 
+
+//Change HTML Img to Own
+jarCal4[8].src = "https://cdn-images-1.medium.com/fit/c/200/200/1*crtFnR7-N2QAEszRJKwYjQ.jpeg";
